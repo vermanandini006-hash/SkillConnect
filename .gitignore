@@ -1,0 +1,19 @@
+
+# Student uploaded files
+/uploads/*
+!/uploads/.gitkeep
+
+# Local environment secrets
+.env
+.env.*
+!.env.example
+
+# Database backups
+*.sql
+*.sql.gz
+
+# Logs
+*.log
+
+# Dependencies
+/vendor/
